@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bcg"
+version = "0.1.0"
+description = ""
+authors = ["ericyaang <eric_yang@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.23.1"
+pandas = "^2.0.2"
+plotly = "^5.15.0"
+sklearn = "^0.0.post5"
+seaborn = "^0.12.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
