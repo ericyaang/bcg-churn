@@ -26,17 +26,19 @@ Clone the repository and navigate to the project directory.
 git clone https://github.com/<your-username>/powerco-customer-churn.git
 cd powerco-customer-churn
 
+```
 If you don't have Poetry installed, you can install it by following the instructions on the official Poetry website.
 
 Once you have Poetry, you can install the project dependencies:
 
-```
+
+```bash
 poetry install
 ```
 
 You can now run the dashboard using Streamlit:
 
-```
+```bash
 poetry run streamlit run app.py
 ```
 
