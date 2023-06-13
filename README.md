@@ -2,6 +2,8 @@
 
 This repository contains the code for an interactive dashboard that predicts and visualizes customer churn for PowerCo, a major gas and electricity utility. The dashboard is built with Streamlit and Plotly and provides various insights including churn metrics, risk categorization, and revenue impact.
 
+![](https://github.com/ericyaang/bcg-churn/blob/main/media/app.gif)
+
 ## Overview
 
 The dashboard is divided into several sections:
